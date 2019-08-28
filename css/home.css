@@ -1,0 +1,27 @@
+/* Introdução */
+
+.introducao{
+    margin-top: 7.12vh;
+    background-image: url('/img/home/bg-biofit360x240.jpg');
+    background-position: 50% 40%;
+    background-size: cover;
+    height: 92.9vh;
+}
+
+@media (min-width: 520px) {
+    .introducao{
+        background-image: url('/img/home/bg-biofit520x347.jpg');
+    }
+}
+
+@media (min-width: 750px) {
+    .introducao{
+        background-image: url('/img/home/bg-biofit750x501.jpg');
+    }
+}
+
+@media (min-width: 1024px) {
+    .introducao{
+        background-image: url("/img/home/bg-biofit1024x683.jpg");
+    } 
+}
