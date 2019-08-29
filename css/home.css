@@ -2,28 +2,16 @@
 
 .introducao{
     margin-top: 7.12vh;
-    background-image: url('../img/home/bg-biofit360x240.jpg');
+    background-image: url('../img/home/bg-biofit520x271.jpg');
     background-repeat: no-repeat;
     background-position: 50% 25%;
     background-size: cover;
     height: 92.9vh;
-    padding-top: 38vh;
+    padding-top: 30vh;
 }
 
-@media (min-width: 520px) {
-    .introducao{
-        background-image: url('../img/home/bg-biofit520x347.jpg');
-    }
+span.sublinhado {
+    box-shadow: inset 0 -0.175em #007bff;
+    display: inline;
 }
-
-@media (min-width: 750px) {
-    .introducao{
-        background-image: url('../img/home/bg-biofit750x501.jpg');
-    }
-}
-
-@media (min-width: 1024px) {
-    .introducao{
-        background-image: url("../img/home/bg-biofit1024x683.jpg");
-    } 
-}
+  
