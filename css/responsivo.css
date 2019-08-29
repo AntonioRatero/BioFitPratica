@@ -1,36 +1,41 @@
 /* Introdução */
 
-@media (min-width: 520px) {
+@media (max-width: 480px) {
     .introducao{
-        background-image: url('../img/home/bg-biofit520x271.jpg');
+        background-image: url('../img/home/bg-biofit480x266.jpg');
     }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 481px) and (max-width: 767px)  {
     .introducao{
-        background-image: url('../img/home/bg-biofit750x391.jpg');
+        background-image: url('../img/home/bg-biofit768x425.jpg');
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     .introducao{
         background-image: url("../img/home/bg-biofit1024x683.jpg");
     } 
 }
 
-/* Desktop */
+ 
+/* Tablets na horizontal e Desktops normais */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+
+
 }
+ 
+/* Smartphones na horizontal e Tablets na vertical */
 
-/* Tablet */
+@media (max-width: 767px) { 
 
-@media (min-width: 767px) {
+
 }
+ 
+/* Smartphones na vertical */
 
-/* Smartphone */
-
-@media (max-width: 575px) {
+@media (max-width: 480px) {
     .display-sm{
         font-size: 3rem;
     }
@@ -38,4 +43,4 @@
     .text-sub-sm{
         font-size: 1.2rem;
     }
-}
+ }

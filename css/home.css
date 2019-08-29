@@ -2,9 +2,9 @@
 
 .introducao{
     margin-top: 7.12vh;
-    background-image: url('../img/home/bg-biofit520x271.jpg');
+    background-image: url("../img/home/bg-biofit1920x1281.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 25%;
+    background-position: 50% 0%;
     background-size: cover;
     height: 92.9vh;
     padding-top: 30vh;
@@ -14,4 +14,8 @@ span.sublinhado {
     box-shadow: inset 0 -0.175em #007bff;
     display: inline;
 }
-  
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
