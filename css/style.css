@@ -15,3 +15,38 @@ body{
 .bg-laranja{
     background-color: #f2b705;
 }
+
+/* Treinos */
+
+.bg-azul{
+    background-color: #124673;
+}
+
+.treino-musculacao{
+    background-image: url('../img/treinos/musculacao907x478.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.treino-fitdance{
+    background-image: url('../img/treinos/fitdance400x399.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.treino-boxe{
+    background-image: url('../img/treinos/boxe400x399.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.card-destaque{
+    height: 296px
+}
+
+.card-comum{
+    height: 298px;
+}

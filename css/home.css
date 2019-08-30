@@ -14,6 +14,7 @@ span.sublinhado {
     box-shadow: inset 0 -0.175em #007bff;
     display: inline;
 }
+
 a.custom-card,
 a.custom-card:hover {
   color: inherit;
