@@ -4,6 +4,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.subtitulo-laranja{
+    color: #f2b705;
+}
+
+
 
 /* Navbar */
 
@@ -19,7 +24,7 @@ body{
 /* Treinos */
 
 .bg-azul{
-    background-color: #124673;
+    background-color: #eeeeee;
 }
 
 .treino-musculacao{
@@ -38,6 +43,20 @@ body{
 
 .treino-boxe{
     background-image: url('../img/treinos/boxe400x399.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.treino-zumba{
+    background-image: url('../img/treinos/zumba400x399.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.treino-yoga{
+    background-image: url('../img/treinos/yoga400x399.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
