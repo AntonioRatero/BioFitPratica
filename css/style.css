@@ -27,11 +27,16 @@ body{
     background-color: #eeeeee;
 }
 
-.treino-musculacao{
-    background-image: url('../img/treinos/musculacao907x478.jpg');
+
+div[class*="treino-"]{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    text-shadow: 0px 2px 5px #000000;
+}
+
+.treino-musculacao{
+    background-image: url('../img/treinos/musculacao907x478.jpg');
 }
 
 .treino-fitdance{
@@ -39,33 +44,84 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    text-shadow: 0px 2px 5px #000000;
 }
 
 .treino-boxe{
     background-image: url('../img/treinos/boxe400x399.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 
 .treino-zumba{
     background-image: url('../img/treinos/zumba400x399.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 
 .treino-yoga{
     background-image: url('../img/treinos/yoga400x399.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 
 .card-destaque{
-    height: 296px
+    height: 296px;
+    border-left: 6px solid #FA3000;
 }
-
 .card-comum{
     height: 298px;
 }
+
+.treino-fitdance{
+    border-left: 6px solid #f2b705;
+}
+
+.treino-boxe{
+    border-left: 6px solid #2F00A6;
+}
+
+.treino-zumba{
+    border-left: 6px solid #C4DE02;
+}
+
+.treino-yoga{
+    border-left: 6px solid #0163F5;
+}
+
+/* Plugin */
+
+.treinos .card .additional {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: width 0.4s;
+    overflow: hidden;
+    opacity: .5;
+    fill-opacity: alpha(5)
+}
+
+.treinos .card:hover .additional {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.treinos .card.vermelho .additional{
+    background: linear-gradient(#fa3000, #fa3000);
+}
+
+.treinos .card.amarelo .additional{
+    background: linear-gradient(#f2b705, #f2b705);
+}
+
+.treinos .card.roxo .additional{
+    background: linear-gradient(#2f00a6, #2f00a6);
+}
+
+.treinos .card.limao .additional{
+    background: linear-gradient(#c4de02, #c4de02);
+}
+
+.treinos .card.azul .additional{
+    background: linear-gradient(#0163f5, #0163f5);
+}
+
+
+
+
+
+  
