@@ -83,7 +83,9 @@ div[class*="treino-"]{
     border-left: 6px solid #0163F5;
 }
 
-/* Plugin */
+/* Plugins */
+
+/* player-user-cards */
 
 .treinos .card .additional {
     position: absolute;
