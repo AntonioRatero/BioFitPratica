@@ -1,28 +1,10 @@
-/* Introdução */
-
-@media (max-width: 480px) {
-    .introducao{
-        background-image: url('../img/home/bg-biofit480x266.jpg');
-    }
-}
-
-@media (min-width: 481px) and (max-width: 767px)  {
-    .introducao{
-        background-image: url('../img/home/bg-biofit768x425.jpg');
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    .introducao{
-        background-image: url("../img/home/bg-biofit1024x683.jpg");
-    } 
-}
-
- 
 /* Tablets na horizontal e Desktops normais */
 
 @media (min-width: 768px) and (max-width: 1199px) {
-
+    
+    .introducao{
+        background-image: url("../img/home/bg-biofit1024x683.jpg");
+    } 
 
 }
  
@@ -30,12 +12,20 @@
 
 @media (max-width: 767px) { 
 
+    .introducao{
+        background-image: url('../img/home/bg-biofit768x425.jpg');
+    }
 
 }
  
 /* Smartphones na vertical */
 
 @media (max-width: 480px) {
+
+    .introducao{
+        background-image: url('../img/home/bg-biofit480x266.jpg');
+    }
+
     .display-sm{
         font-size: 3rem;
     }
