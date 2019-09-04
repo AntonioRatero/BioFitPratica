@@ -16,14 +16,28 @@
         background-image: url('../img/home/bg-biofit768x425.jpg');
     }
 
+    .sobre-conteudo h2
+    {
+        text-align: center;
+    }
+
 }
  
 /* Smartphones na vertical */
 
 @media (max-width: 480px) {
 
+    html {
+        font-size: 0.75rem;
+    }
+    
     .introducao{
         background-image: url('../img/home/bg-biofit480x266.jpg');
+    }
+
+    .sobre-conteudo h2
+    {
+        text-align: center;
     }
 
     .display-sm{

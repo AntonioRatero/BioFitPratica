@@ -42,7 +42,7 @@
             <a class="nav-link text-white" href="#">Contato</a>
           </li>
           <li class="nav-item">
-            <button type="button" class="nav-item btn btn-outline-primary">IMC</button>
+            <button type="button" class="nav-item btn btn-outline-primary p-3">IMC</button>
           </li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
       <h1 class="display-1 text-white display-sm">Seja<span class="ml-4 sublinhado">BioFit</span></h1>
       <h3 class="text-white mt-md-4 text-sub-sm"><span class="d-block">O que não te desafia não te faz
           mudar</span><span>Venha treinar com a #BioFit</span></h3>
-      <a href="#" class="btn btn-lg btn-success mt-md-4" role="botão" aria-pressed="true">Tenho Interesse</a>
+      <button href="#" class="btn btn-lg btn-success mt-md-4 p-3" role="botton" aria-pressed="true">Tenho Interesse</a>
     </div>
     </div>
   </section>
@@ -97,23 +97,30 @@
   <section class="sobre my-3">
     <hr />
     <div class="container">
-      <div class="row col-12 py-5">
+      <div class="row py-5 px-0">
         <div class="text-center col-md-6">
-          <img src="img/home/biofit-neon400x400.png" class="img-fluid" alt="Figura de dois práticante da BioFit em formato de Neon">
+          <img src="img/home/biofit-neon400x400.png" class="img-fluid"
+            alt="Figura de dois práticante da BioFit em formato de Neon">
         </div>
         <div class="col-md-6 sobre-conteudo pl-md-5">
           <div class="my-5">
             <h2 class="font-weight-bold pb-3 subitulo-azul">A BioFit</h2>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item h5"><i class="fas fa-dumbbell text-success rotate-30"></i> Possui mais de 20 anos de tradição</li>
-            <li class="list-group-item h5"><i class="fas fa-dumbbell text-success rotate-30"></i> Sempre atualizada com as tendência Fitness</li>
-            <li class="list-group-item h5"><i class="fas fa-dumbbell text-success rotate-30"></i> É Motivadora</li>
-            <li class="list-group-item h5"><i class="fas fa-dumbbell text-success rotate-30"></i> Disponibiliza Saúde e Bem Estar</li>
-            <li class="list-group-item h5"><i class="fas fa-dumbbell text-success rotate-30"></i> Sua Meta é nossa prioridade</li>
-            <li class="list-group-item h5"><i class="fas fa-dumbbell text-success rotate-30"></i> Sabe o que é Melhor pra Você</li>
+            <li class="list-group-item"><i class="fas fa-dumbbell text-success rotate-30"></i> Possui mais de 20 anos de
+              tradição</li>
+            <li class="list-group-item"><i class="fas fa-dumbbell text-success rotate-30"></i> Sempre atualizada com as
+              tendência Fitness</li>
+            <li class="list-group-item"><i class="fas fa-dumbbell text-success rotate-30"></i> É Motivadora</li>
+            <li class="list-group-item"><i class="fas fa-dumbbell text-success rotate-30"></i> Disponibiliza Saúde e Bem
+              Estar</li>
+            <li class="list-group-item"><i class="fas fa-dumbbell text-success rotate-30"></i> Sua Meta é nossa
+              prioridade</li>
+            <li class="list-group-item"><i class="fas fa-dumbbell text-success rotate-30"></i> Sabe o que é Melhor pra
+              Você</li>
           </ul>
         </div>
+        <button type="button" class="btn btn-primary btn-lg p-3 pt-3 mx-auto">Tenho Interesse</button>
       </div>
     </div>
   </section>
@@ -191,6 +198,43 @@
             </div>
           </a>
         </div>
+        <button type="button" class="btn btn-success btn-lg p-3 pt-3 mt-5 mx-auto">Visualizar Todos</button>
+      </div>
+    </div>
+  </section>
+  <section class="frases-motivacionais py-5">
+    <div class="container bg-laranja">
+      <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> -->
+      <div id="carouselFrasesMotivacionais" class="carousel slide col-md-6 mx-auto p-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselFrasesMotivacionais" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselFrasesMotivacionais" data-slide-to="1"></li>
+          <li data-target="#carouselFrasesMotivacionais" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <blockquote class="blockquote">
+              <p class="mb-0 text-center">"A vontade de se preparar tem que ser maior do que a vontade de vencer. Vencer
+                será consequência da boa preparação"</p>
+              <footer class="blockquote-footer text-right"><cite title="Source Title">Antonio Ratero</cite></footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote">
+              <p class="mb-0 text-center">"Não perca tempo mentalizando o tamanho da escada, suba o primeiro degrau e
+                saiba o que é capaz"</p>
+              <footer class="blockquote-footer text-right"><cite title="Source Title">Bruce Lee</cite></footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote">
+              <p class="mb-0 text-center">"Não existe treino milagroso. Não existe uma dieta mágica. O que existe é
+                foco,
+                disciplina, perseverança, e o mais importante nunca desistir"</p>
+              <footer class="blockquote-footer text-right"><cite title="Source Title">Jack Chan</cite>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -208,3 +252,8 @@
 </body>
 
 </html>
+<script>
+  $(document).ready(function () {
+    $('.carousel').carousel();
+  })
+</script>
