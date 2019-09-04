@@ -96,6 +96,50 @@ div[class*="treino-"]{
     border-left: 6px solid #0163F5;
 }
 
+/* Frases Motivacionais */
+
+/* #carouselFrasesMotivacionais::after{
+    content:"";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #007bff;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    border-radius: 5px;
+}
+
+#carouselFrasesMotivacionais::before{
+    content:"";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #28a745;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    border-radius: 5px;
+} */
+
+#carouselFrasesMotivacionais > .peso-azul{
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
+    transform: rotate(-45deg);
+}
+
+#carouselFrasesMotivacionais > .peso-verde{
+    position: absolute;
+    top: 130px;
+    right: -40px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
+    transform: rotate(-45deg);
+}
+
 /* Plugins */
 
 /* player-user-cards */
