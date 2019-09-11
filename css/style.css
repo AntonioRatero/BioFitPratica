@@ -30,6 +30,11 @@ body{
     background-color: #f2b705;
 }
 
+.border-2{
+    border-width: 2px !important;
+}
+
+
 /* Sobre */
 
 
@@ -98,43 +103,20 @@ div[class*="treino-"]{
 
 /* Frases Motivacionais */
 
-/* #carouselFrasesMotivacionais::after{
-    content:"";
-    display: block;
-    width: 70px;
-    height: 70px;
-    border: 5px solid #007bff;
+.peso-01{
     position: absolute;
-    bottom: -30px;
-    right: -30px;
-    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: -40px; left: 0; bottom: 0; right: 0;
 }
 
-#carouselFrasesMotivacionais::before{
-    content:"";
-    display: block;
-    width: 70px;
-    height: 70px;
-    border: 5px solid #28a745;
-    position: absolute;
-    top: -30px;
-    left: -30px;
-    border-radius: 5px;
-} */
-
-#carouselFrasesMotivacionais > .peso-azul{
-    position: absolute;
-    top: -30px;
-    left: -30px;
+.peso-azul{
     -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Safari 3-8 */
     transform: rotate(-45deg);
 }
 
-#carouselFrasesMotivacionais > .peso-verde{
-    position: absolute;
-    top: 130px;
-    right: -40px;
+.peso-verde{
     -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Safari 3-8 */
     transform: rotate(-45deg);
@@ -181,4 +163,50 @@ div[class*="treino-"]{
 
 .treinos .card.azul .additional{
     background: linear-gradient(#0163f5, #0163f5);
+}
+
+
+/* Plugins */
+
+
+/* Depoimentos */
+
+.testimonial-card .card-up {
+    overflow: hidden;
+    height: 120px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.blue-gradient {
+    background: linear-gradient(40deg,#45cafc,#303f9f) !important;
+}
+
+.indigo {
+    background-color: 
+    #3f51b5 !important;
+}
+
+.info-color {
+    background-color: 
+    #33b5e5 !important;
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.testimonial-card .avatar {
+    border-radius: 50%;
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid 
+    #fff;
 }
