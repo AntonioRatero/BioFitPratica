@@ -19,7 +19,10 @@ body{
     transform: rotate(30deg);
 }
 
-/* Navbar */
+
+.bg-cinza{
+    background-color: #eeeeee;
+}
 
 .logo{
     font-family: 'Baloo', cursive;
@@ -34,17 +37,7 @@ body{
     border-width: 2px !important;
 }
 
-
-/* Sobre */
-
-
-
 /* Treinos */
-
-.bg-azul{
-    background-color: #eeeeee;
-}
-
 
 div[class*="treino-"]{
     background-repeat: no-repeat;
