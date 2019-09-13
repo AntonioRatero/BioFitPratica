@@ -164,42 +164,18 @@ div[class*="treino-"]{
 
 /* Depoimentos */
 
-.testimonial-card .card-up {
-    overflow: hidden;
-    height: 120px;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
+.depoimentos{
+    background-image: url(../img/home/bg-depoimentos.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-shadow: 0px 2px 5px #000000;
 }
 
-.blue-gradient {
-    background: linear-gradient(40deg,#45cafc,#303f9f) !important;
+.depoimentos .card{
+    opacity: 0.9;
 }
 
-.indigo {
-    background-color: 
-    #3f51b5 !important;
-}
-
-.info-color {
-    background-color: 
-    #33b5e5 !important;
-}
-
-
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-}
-
-.rounded-circle {
-    border-radius: 50% !important;
-}
-
-.testimonial-card .avatar {
-    border-radius: 50%;
-    width: 120px;
-    margin-top: -60px;
-    overflow: hidden;
-    border: 5px solid 
-    #fff;
+.imgs-depoimentos{
+    max-width: 150px;
 }
