@@ -1,5 +1,7 @@
 $(document).ready(function () {
     // Ativa o Carousel
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+        interval: 5000
+    });
 
 });
