@@ -20,17 +20,18 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/responsivo.css">
+
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-light bg-laranja">
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-laranja">
     <div class="container">
       <a class="navbar-brand logo" href="#">BioFit</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
         aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <div class="collapse navbar-collapse stroke" id="conteudoNavbarSuportado">
         <ul class="navbar-nav ml-auto font-weight-bold">
           <li class="nav-item active mr-sm-2">
             <a class="nav-link text-white" href="#">Treinos<span class="sr-only">(página atual)</span></a>
@@ -48,6 +49,8 @@
       </div>
     </div>
   </nav>
+  <!-- Social Media -->
+  <div id="share-bar"></div>
   <section class="introducao">
     <div class="container">
       <h1 class="display-1 text-white display-sm">Seja<span class="ml-4 sublinhado">BioFit</span></h1>
@@ -317,7 +320,7 @@
     </div>
   </section>
   <section class="newsletter py-5">
-    <div class="container">
+    <div class="container pt-5">
       <div class="card border-0">
         <div class="car-title">
           <h2 class="subitulo-azul text-center">
@@ -338,6 +341,36 @@
       </div>
     </div>
   </section>
+  <footer class="footer bg-footer mb-n3 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-12">
+          <p class="text-white logo-footer display-3">BioFit</p>
+        </div>
+        <div class="col-md-2 col-12 pt-md-0 pt-3">
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent text-primary border-0"><span class="h3 c-laranja">Menus</span>
+            </li>
+            <li class="list-group-item bg-transparent text-primary border-0"><a href="treinos.html">Treinos</a></li>
+            <li class="list-group-item bg-transparent text-primary border-0"><a href="horarios.html">Horários</a></li>
+            <li class="list-group-item bg-transparent text-primary border-0"><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-12 pt-md-0 pt-3">
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent text-primary border-0"><span
+                class="h3 c-laranja">Funcionamento</span>
+            </li>
+            <li class="list-group-item bg-transparent text-white border-0">Segunda-Sexta: 06:00-22:00 horas</li>
+            <li class="list-group-item bg-transparent text-white border-0">Sábado: 08:00-12:00 horas</li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-12 pt-md-3 pt-5">
+          <p class="text-white">© Antonio Ratero - 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Section: Testimonials v.1 -->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -351,6 +384,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <!-- JS -->
+  <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 </body>
 
